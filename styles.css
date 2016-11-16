@@ -13,9 +13,50 @@ a:visited {
 	color: black;
 }
 
+.wrapper {
+	width: 320px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+
+.wrapper-two {
+	width: 320px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.wrapper-three {
+	width: 320px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+
 h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 300px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
 }
 
 ul.navigation {
@@ -23,10 +64,17 @@ ul.navigation {
 	list-style: none;
 	text-align: center;
 	padding-left: 0px;
+	padding-right: 15px;
 }
 
 .navigation li {
 	background: white;
 	padding: 15px;
 	margin: 12px;
+}
+
+.profile-photo {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
 }
