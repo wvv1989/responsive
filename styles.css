@@ -1,3 +1,32 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-color: #f2f2f2;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+ul.navigation {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	list-style: none;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.navigation li {
+	background: white;
+	padding: 15px;
+	margin: 12px;
+}
