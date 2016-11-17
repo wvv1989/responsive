@@ -7,6 +7,7 @@ body {
 
 a:link {
 	text-decoration: none;
+	color: black;
 }
 
 a:visited {
@@ -145,14 +146,18 @@ ul.navigation {
 		height: 1125px;
 	}
 	
-	.img-one {
+	.img-one,
+	.img-three,
+	.img-five {
 		width: 44%;
 		float: left;
 		margin-left: 40px;
 		background-color: white;
 	}
 	
-	.img-two {
+	.img-two,
+	.img-four,
+	.img-six {
 		width: 44%;
 		float: right;
 		margin-right: 40px;
@@ -186,5 +191,60 @@ ul.navigation {
 		display: inline;
 		padding: 0 5px 0 5px;
 	}
+	
+}
+
+@media screen and (min-width: 1024px) {
+	h1 {
+		text-align: left;
+		padding: 20px 20px;
+	}
+	
+	ul.navigation {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		list-style: none;
+		text-align: right;
+		margin-top: -40px;
+	}
+	
+	.wrapper-two {
+		background: white;
+		height: 750px;
+	}
+	
+	.img-one,
+	.img-two,
+	.img-three,
+	.img-four,
+	.img-five,
+	.img-six {
+		width: 31%;
+		float: left;
+	}
+	
+	.img-four {
+		margin-left: 40px;
+	}
+	
+	.img-two,
+	.img-four,
+	.img-six {
+		margin-right: 0px;
+	}
+	
+	.img-three,
+	.img-five,
+	.img-six {
+		margin-left: 0px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
