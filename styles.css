@@ -138,6 +138,12 @@ ul.navigation {
 		width: 50%;
 		float: left;
 		background-color: white;
+	}	
+	
+	.img-six p,
+	.img-five p {
+		min-height: 53px;
+		background-color: white;
 	}
 	
 	.wrapper-two {
