@@ -193,13 +193,14 @@ ul.navigation {
 	h1 {
 		text-align: left;
 		padding: 20px 20px;
+		font-size: 30px;
 	}
 	
 	ul.navigation {
 		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		list-style: none;
 		text-align: right;
-		margin-top: -40px;
+		margin-top: -60px;
 	}
 	
 	.navigation a {
